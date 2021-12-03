@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.eazyhomebrunei.com">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:hardwareAccelerated="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:supportsRtl="true" />
+
+
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan"
+
+        >
+        <activity android:name="app.eazyhomebrunei.com.viewallsubincategoryproducts"></activity>
+        <activity android:name="app.eazyhomebrunei.com.viewallcategoryproducts" />
+        <activity android:name="app.eazyhomebrunei.com.subincategoryproducts" />
+        <activity android:name="app.eazyhomebrunei.com.Editprofilenew" />
+        <activity android:name="app.eazyhomebrunei.com.Terms_and_conditions" />
+        <activity android:name="app.eazyhomebrunei.com.sampleuplaod" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Single_order_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.delivery_availability"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.subincategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.CategoryProducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.loading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Verify_otp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.banner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.my_order"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Aboutus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.EditSetting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Editprofileimage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.gallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.my_coupons"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.CART"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Single_product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Vew_my_wishlist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.all_productss"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.edit_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.view_all_latestproduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.view_all_offerproduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.view_all_featuredproduct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.view_allcategoriesproduct"
+            android:screenOrientation="portrait" />
+        <activity android:name="app.eazyhomebrunei.com.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.eazyhomebrunei.com.Subcatagory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Detailactivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.product_sample"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.sampleotp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.search_product"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.add_address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Address"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Catagories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.checkout"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.add_to_cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.view_my_cart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.product_details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.offer_products"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.Home"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="app.eazyhomebrunei.com.create_account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.otp_generate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.otp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="app.eazyhomebrunei.com.my_profile"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

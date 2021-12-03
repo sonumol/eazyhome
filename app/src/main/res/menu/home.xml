@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/item1"
+    android:orderInCategory="100"
+    android:title="Item"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/item2"
+        android:orderInCategory="100"
+        android:title="Item1"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Subitem1"
+                >
+                <menu>
+                    <item
+                        android:id="@+id/subitem12"
+                        android:title="subitem12"
+                        />
+                </menu>
+
+            </item>
+            <item
+                android:id="@+id/subitem2"
+                android:title="subitem2"
+                />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:orderInCategory="100"
+        android:title="Item3"
+        app:showAsAction="never" >
+<menu>
+    <item
+    android:id="@+id/subitem"
+    android:title="Subitem3"
+    />
+    <item
+        android:id="@+id/subitem3"
+        android:title="subitem4"
+        />
+</menu>
+
+    </item>
+</menu>

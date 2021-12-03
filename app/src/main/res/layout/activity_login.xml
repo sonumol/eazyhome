@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back,"
+            android:textColor="@color/txtclr"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register / Login using  your"
+            android:textColor="@color/txtclr"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mobile number"
+            android:textColor="@color/txtclr"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="37dp"
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+673"
+
+            android:textSize="15dp"
+
+           ></TextView>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/phn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Mobile Number"
+            android:background="@drawable/text_background"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:maxLength="7"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:textColor="@color/textclr1"
+            android:textColorHint="@color/textclr1"
+
+
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/textclr1"
+            android:layout_marginLeft="40dp"
+            android:text="We will send a verification code to" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="your mobile number."
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp"
+
+            android:textColor="@color/textclr1"/>
+    </LinearLayout>
+<ProgressBar
+    android:id="@+id/progress"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+></ProgressBar>    <LinearLayout
+        android:id="@+id/otp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/text_background1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+
+            android:gravity="center"
+            android:text="Get OTP"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"/>
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/slideback"
+
+
+    >
+
+
+
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:orientation="vertical"
+
+        >
+
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:paddingBottom="14dp"
+                android:layout_marginLeft="40dp">
+
+
+
+                <LinearLayout
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:orientation="vertical"
+                    tools:ignore="MissingConstraints">
+
+                    <TextView
+                        android:id="@+id/reference"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="COPMOYR34"
+                        android:textColor="@color/txtclr" />
+
+                    <TextView
+                        android:id="@+id/desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="exchange your old Refrigerator and get up t 3.060 off "
+                        android:textColor="@color/light_gray"
+                        android:textSize="13dp"
+                        />
+
+
+
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:text="Expired on" />
+                        <TextView
+                            android:id="@+id/enddate"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:scrollHorizontally="true"
+                            android:text="May 01,2010"/>
+                        <TextView
+                            android:id="@+id/endtime"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:scrollHorizontally="true"
+                            android:text="11:59 PM"/>
+
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+  </LinearLayout>
+                <RelativeLayout
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+
+                        android:layout_marginBottom="10dp"
+
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/t6"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:text="rewards_points"
+                            android:textColor="#000"></TextView>
+
+                        <TextView
+
+                            android:id="@+id/t7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:text=""
+                            android:textColor="#000" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/textopt"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="40dp"
+                    android:text="T &amp; C"
+                    android:textColor="@color/blue_800"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/slideback"
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="-8dp"
+            android:elevation="10dp">
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="wrap_content"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dummy"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <ToggleButton
+                    android:id="@+id/tb_wishlist"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/toggle_selector"
+                    android:checked="true"
+                    android:padding="6dp"
+                    android:textOff=""
+                    android:textOn="" />
+            </LinearLayout>
+
+            <!--            <ProgressBar-->
+            <!--                android:id="@+id/progress"-->
+            <!--                style="?android:attr/progressBarStyle"-->
+            <!--                android:layout_width="100dp"-->
+            <!--                android:layout_height="20dp"-->
+            <!--                android:layout_marginTop="30dp" />-->
+        </androidx.cardview.widget.CardView>
+        <!--        <-->
+        <!--        android:id="@+id/image_view"-->
+
+        <!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="110dp"-->
+        <!--       -->
+        <!--            android:src="@drawable/dummy"-->
+        <!--            android:adjustViewBounds="true"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            android:src="@drawable/magritte"-->
+        <!--            app:cornerRadius="@dimen/round_corner_radius"-->
+        <!--            app:roundedCorners="topLeft|topRight" />-->
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="12sp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:maxLines="3"
+            android:fontFamily="@font/roboto"
+
+
+            android:text="Big sale 30%off"
+            android:textColor="#000" />
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+
+            >
+
+            <TextView
+                android:id="@+id/offer_price"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:autoSizeMaxTextSize="15sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:fontFamily="@font/roboto"
+
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:autoSizeMaxTextSize="15sp"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeTextType="uniform"
+                android:gravity="center"
+                android:fontFamily="@font/roboto"
+
+                android:textColor="@color/light_gray" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:gravity="end"
+            android:orientation="vertical"
+            android:id="@+id/ll_gradient"
+            android:layout_width="140dp"
+            android:layout_height="50dp"></LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:fontFamily="@font/roboto"
+
+        android:id="@+id/add_cart"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/image_view"
+        android:autoSizeMaxTextSize="15sp"
+        android:autoSizeMinTextSize="8sp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/cartbutton"
+        android:gravity="center"
+        android:text="Add to cart"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

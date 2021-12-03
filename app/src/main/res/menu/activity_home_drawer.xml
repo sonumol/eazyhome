@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:itemTextAppearance="@style/TextAppearance.AppCompat.Display1">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/clrhome"
+            android:title="Home"
+
+            android:checked="true"
+            />
+        <item
+            android:id="@+id/nav_offer"
+            android:icon="@drawable/offerpro"
+
+            android:title="Offer Products" />
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/wish_list"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart1"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/check_delivery"
+            android:title="Check Delivery Availability" />
+        <item
+            android:id="@+id/nav_adress"
+            android:icon="@drawable/myaddress"
+            android:title="My Addresses" />
+        <item
+            android:id="@+id/nav_coupons"
+            android:icon="@drawable/coupons1"
+            android:title="My Coupons" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/myorder"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile1"
+            android:title="My Profile" />
+    </group>
+
+    <item
+        android:id="@+id/communicate"
+        android:title="Communicate"
+        android:name="android:textColorPrimary">
+        >
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/shareapp"
+                android:title="Share This App" />
+            <item
+                android:id="@+id/nav_Rate"
+                android:icon="@drawable/rate_app"
+                android:title="Rate This App" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

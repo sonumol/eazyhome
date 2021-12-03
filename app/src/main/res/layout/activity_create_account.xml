@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sepraiz_logo_png2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/txtclr"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Details"
+            android:textColor="@color/txtclr"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/t1"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:hint="Enter your name"
+            android:background="@drawable/text_background"
+            android:textSize="15dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"            android:layout_marginLeft="40dp"
+            android:textSize="15dp"/>
+
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:hint="Enter your Email"
+            android:id="@+id/email"
+            android:background="@drawable/text_background"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:inputType="textEmailAddress"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"            android:layout_marginLeft="40dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/t3"
+            android:visibility="invisible"
+            android:textColor="@color/colorPrimary"/>
+
+        <EditText
+            android:hint="Setup new Password"
+            android:id="@+id/pswd"
+            android:background="@drawable/text_background"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:inputType="textPassword"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agree"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimarylight"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/agrr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I agree with the terms of service"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimarylight" />
+
+
+
+    </LinearLayout>
+<ProgressBar
+    android:id="@+id/loading"
+    android:layout_marginTop="10dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></ProgressBar>
+    <LinearLayout
+        android:id="@+id/create"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text_background1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"/>
+</LinearLayout>
+
+</ScrollView>

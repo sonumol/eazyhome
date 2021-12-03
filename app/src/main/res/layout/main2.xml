@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Categories"
+            android:textColor="@color/txtclr"
+            android:textSize="20dp"
+            android:fontFamily="@font/roboto"
+
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:id="@+id/view_category"
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:fontFamily="@font/roboto"
+            android:layout_marginEnd="20dp"            android:layout_height="wrap_content"
+            android:text="View all"
+            android:textStyle="bold"
+            android:textColor="@color/textclr1"
+            android:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy4"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Featured Products"
+        android:textColor="@color/txtclr"
+        android:textSize="20dp"
+        android:fontFamily="@font/roboto"
+
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/view_featured_product"
+
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_marginEnd="20dp"
+        android:layout_height="wrap_content"
+        android:text="View all"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:textColor="@color/textclr1"
+        android:textSize="15dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recy1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer Products"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/txtclr"></TextView>
+
+        <TextView
+            android:id="@+id/offer_products"
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:text="View all"
+            android:textSize="15dp"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:textColor="@color/textclr1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recy2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Products"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/txtclr"/>
+
+        <TextView
+            android:id="@+id/latest_products"
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_height="wrap_content"
+            android:text="View all"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/textclr1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recy3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+     />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp"
+        android:scrollbars="vertical"></LinearLayout>
+</LinearLayout>

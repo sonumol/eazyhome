@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.eazyhomebrunei.com.otp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/b3"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back,"
+            android:textColor="@color/txtclr"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register / Login using  your"
+            android:textColor="@color/txtclr"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mobile number"
+            android:textColor="@color/txtclr"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <com.hbb20.CountryCodePicker
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ccp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+
+            app:ccp_areaCodeDetectedCountry="true"
+            app:ccp_showNameCode="false"
+            app:ccp_textSize="14dp"></com.hbb20.CountryCodePicker>
+
+        <EditText
+            android:id="@+id/phn"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="Mobile Number"
+            android:background="@drawable/text_background"
+            android:textSize="15dp"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:textColor="@color/textclr1"
+            android:textColorHint="@color/textclr1"
+
+
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/textclr1"
+            android:layout_marginLeft="40dp"
+            android:text="We will send a verification code to" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="your mobile number."
+            android:layout_marginLeft="40dp"
+            android:textSize="15dp"
+
+            android:textColor="@color/textclr1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/otp1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_background1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get OTP"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
